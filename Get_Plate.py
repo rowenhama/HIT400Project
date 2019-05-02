@@ -5,6 +5,7 @@ from tkinter import filedialog as fd
 import tkinter as tk
 import easygui
 import os
+import sklearn
 
 
 def read_img(filename):
