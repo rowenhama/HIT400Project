@@ -1,0 +1,5 @@
+cd c:\Users\User\Documents\TrafficEyeHIT400
+git config --local credential.https://github.com.jmadzudzo
+git config --local credential.useHttpPath true
+git config --local credential.helper manager
+git remote set-url origin https://jmadzudzo@github.com/jmadzudzo/HIT400.git
