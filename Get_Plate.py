@@ -1,3 +1,4 @@
+#get the cars plates
 from subprocess import check_output as qx
 import cv2
 import math
