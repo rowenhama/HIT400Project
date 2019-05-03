@@ -1,3 +1,4 @@
+#Detect a moving car first and chck if whether it has pass the line given the robot signal
 import cv2
 import os
 import datetime
@@ -5,6 +6,7 @@ import datetime
 filename = "Videos/_video1.avi"
 # filename = "Videos/_downhill.mp4"
 # print(filename)
+
 # exit()
 camera = cv2.VideoCapture(filename)
 # camera = cv2.VideoCapture("Plates_short.mkv")
